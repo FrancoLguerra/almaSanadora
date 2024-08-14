@@ -1,0 +1,112 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 5vh; 
+    display: flex;
+    justify-content: space-around;
+    background-color: #360e46;
+    border-radius: 21.2px;
+    transition: 0.7s;
+    padding: 30px 20px;
+    z-index: 10;
+   padding-left: 5%;
+   margin-top: 1%;
+   margin-left: 2%;
+ }
+ header.abajo{
+    background: #fff;
+    padding: 15px 20px;
+ }
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    width: 80%;
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+ 
+
+
+}
+li a{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:aliceblue;
+    margin: 0 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+#logo{
+
+    height: 100%;
+    border-radius: 50%;
+}
+header.abajo #logo,
+header.abajo ul li a{
+    color: #000;
+}   
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/img/colorful-galaxy-sky-full-of-stars-background-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.presentacion{
+    margin-top: 5%;
+    width: 90%;
+    height: 65%;
+    color: #fff;
+    background: url(../assets/img/pexels-rahulp9800-1466007.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 21.2px;
+}
+
+.presentacion .titulo{
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+}
+.presentacion h1{
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.presentacion p{
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
